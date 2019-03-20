@@ -1,0 +1,14 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "sourceType": "module"
+  },
+  "globals": {
+    "document": "document",
+    "window": "window",
+    "Promise": "Promise"
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+  }
+}

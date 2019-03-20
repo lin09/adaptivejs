@@ -1,0 +1,37 @@
+{
+  "name": "@lin09/adaptivejs",
+  "version": "1.0.0",
+  "description": "web 页面自适应调整 html font-size 或 meta[viewport] scale",
+  "scripts": {
+    "start": "rollup --config config/rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lin09/adaptivejs.git"
+  },
+  "keywords": [
+    "adaptive"
+  ],
+  "author": "lin09",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lin09/adaptivejs/issues"
+  },
+  "homepage": "https://github.com/lin09/adaptivejs#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.4.2",
+    "jest": "^23.6.0",
+    "jsonfile": "^5.0.0",
+    "rollup-plugin-babel": "^4.2.0",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-eslint": "^5.0.0",
+    "rollup-plugin-filesize": "^5.0.1",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-uglify": "^6.0.0",
+    "uglify-es": "^3.3.9"
+  }
+}
