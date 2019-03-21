@@ -15,6 +15,7 @@ class Adaptive {
       this.meta = document.createElement('meta')
       this.meta.name = 'viewport'
       this.meta.content = this.createViewportContent('1.0')
+      document.head.append(this.meta)
     } else if (!this.meta.content) {
       // 无 content 时，设置 scale 为 1
       this.meta.content = this.createViewportContent('1.0')

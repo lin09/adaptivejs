@@ -1,6 +1,6 @@
 {
   "name": "@lin09/adaptivejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "web 页面自适应调整 html font-size 或 meta[viewport] scale",
   "scripts": {
     "start": "rollup --config config/rollup.config.js"
