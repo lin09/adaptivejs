@@ -1,6 +1,6 @@
 # web 页面自适应调整 html font-size 或 meta[viewport] scale
 
-* [demo](https://github.com/lin09/mobile-front-end-adaptive-demo)
+* [demo](https://github.com/lin09/demo/tree/master/mobile-front-end-adaptive)
 * 配合[postcss-pxtorem](https://github.com/cuth/postcss-pxtorem)使用
 
 ## 安装
